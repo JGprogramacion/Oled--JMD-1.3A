@@ -704,13 +704,4 @@ void loop() {
 	u8g2.drawXBMP(0,0,128,64,walkgo_5);
 	u8g2.sendBuffer(); 
 	delay(time);
-	/*
-	u8g2.drawCircle(64, 32, 40);
-	u8g2.setFont(u8g2_font_ncenB08_tr);
-  u8g2.drawStr(35, 30, "I love you");
-	u8g2.drawStr(48, 45, "K-mi");
-	
-	
-  u8g2.sendBuffer();  // Mostrar en pantalla
-	*/
 }
